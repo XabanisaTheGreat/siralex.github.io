@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liyanda Xabanisa</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/45bdca7780.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <div class="box-header">
+                <nav>
+                    <img src="images\images/Logo (2).png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <div class="openmenu">
+                    <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+                    </div>
+                </nav>
+            </div>
+                <div class="header-text">
+                    <p>Software Designer</p>
+                    <h1>Hi, I'm <span><br>Liyanda Xabanisa</span><br>From <br>South Africa</h1>
+                </div>
+            </div>
+        </div>
+    <!-------------about------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images\images/userr.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Embarking on the labyrinth of life with an indomitable spirit, I am an indefatigably compassionate and goal-oriented polymath, ardently weaving the tapestry of my aspirations with the threads of tenacity and ambition. Driven by an insatiable hunger for knowledge and an unwavering commitment to excellence, I navigate the intricate intersections of various disciplines, sculpting a mosaic of proficiency. In the crucible of determination, my heart pulsates with an empathetic rhythm, harmonizing compassion with an unyielding work ethic. A fervent pursuer of dreams, I am the orchestrator of my destiny, a symphony of intellect and passion, resounding in the grandeur of ambition.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Designing Web/App interfaces</li>
+                            <li><span>App Development</span><br>Designing Web/App interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2019 - current</span><br>Pic Up Delivery driver</li>
+                            <li><span>2022</span><br>Automated Pilot CheckList</li>
+                            <li><span>2022 - current</span><br>Website Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2015 - 2019</span><br>Midrand High School</li>
+                            <li><span>2021 - Present</span><br>Belgium Campus</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!--------------------services----------------->
+    <div class="space">
+
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>I meticulously crafted an online kitchen platform, seamlessly blending aesthetic appeal with intuitive functionality, enabling users to effortlessly explore recipes, order ingredients, and engage in a culinary journey that transcends the digital realm. </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-solid fa-crop"></i>
+                    <h2>Software Development</h2>
+                    <p>I developed a sophisticated software program tailored for aviation, automating comprehensive checklists for pilots to enhance operational efficiency and safety.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>This app streamlines online kitchen operations, offering seamless order management, inventory tracking, and customer engagement to optimize the efficiency and success of the business.</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------portfolio------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images\images/work-1.png">
+                <div class="layer">
+                    <h3>Noliswa's Kitchen App</h3>
+                    <p>This app facilitates a user-friendly online platform for kitchen businesses, enabling customers to browse, customize, and place orders effortlessly while providing efficient order management and real-time communication for the business.</p>
+                    <a href="#"><i class="fas fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images\images/work-2.png">
+                <div class="layer">
+                    <h3>Automated Pilot Checklist software</h3>
+                    <p>This meticulously engineered solution streamlines pre-flight, in-flight, and post-flight procedures, ensuring a systematic and error-free approach to aircraft management.</p>
+                    <a href="#"><i class="fas fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images\images/work-2.png">
+                <div class="layer">
+                    <h3>Website Of Noliswa's Kitchen</h3>
+                    <p>The website's responsive design ensures a delightful user experience across devices, fostering a dynamic online kitchen community.</p>
+                    <a href="#"><i class="fas fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!---------------contact------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-solid fa-paper-plane"></i>Xabanisaliyanda@gmail.com</p>
+                <p><i class="fas fa-solid fa-phone"></i>0812419125</p>
+                <div class="socail-icons">
+                    <a href="https://facebook.com/"><i class="fab fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-brands fa-instagram"></i></i></a>
+                    <a href=""><i class="fab fa-brands fa-linkedin"></i></i></a>
+                    <a href=""><i class="fab fa-brands fa-tiktok"></i></i></a>
+                </div>
+                <a href="images/LIYANDA XABANISA CV.docx" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div id="copyrightt">
+        <div class="copyright">
+            <p>Copyright @ Xabanisa, Designed with <i class="fas fa-solid fa-heart"></i> by Liyanda Xabanisa</p>
+        </div>
+
+    </div>
+    
+</div>
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+<script>
+
+    $(window).scroll(function(){
+        if($(window).scrollTop()){
+            $("div").addClass("black");
+        }
+        else{
+            $("div").removeClass("black");
+
+        }
+    });
+
+
+
+
+</script>
+
+
+    <script>
+
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+
+    </script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxULnlsg9omu6lWV1irW4WTh8V_Uo5Va457h1t1IkyIS1bd2PhE7lCvpcfO0VEDH1nbhA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <script type="text/javascript">
+    window.addEventListener("scroll", function(){
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY)
+    })
+  </script>
+
+  <script type="text/javascript">
+    // Single Page Apps for GitHub Pages
+    // MIT License
+    // https://github.com/rafgraph/spa-github-pages
+    // This script checks to see if a redirect is present in the query string,
+    // converts it back into the correct url and adds it to the
+    // browser's history using window.history.replaceState(...),
+    // which won't cause the browser to attempt to load the new url.
+    // When the single page app is loaded further down in this file,
+    // the correct url will be waiting in the browser's history for
+    // the single page app to route accordingly.
+    (function(l) {
+      if (l.search[1] === '/' ) {
+        var decoded = l.search.slice(1).split('&').map(function(s) { 
+          return s.replace(/~and~/g, '&')
+        }).join('?');
+        window.history.replaceState(null, null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+        );
+      }
+    }(window.location))
+  </script>
+
+</body>
+</html>
